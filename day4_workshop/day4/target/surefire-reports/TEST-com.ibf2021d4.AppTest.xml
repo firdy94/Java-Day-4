@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ibf2021d4.AppTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ibf2021d4.AppTest" time="0.07" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/test-classes:/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/classes:/Users/mac_sur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mac_sur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/test-classes:/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/classes:/Users/mac_sur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mac_sur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="SG"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/surefire/surefirebooter11355657825865535041.jar /Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/surefire 2021-12-08T21-52-54_850-jvmRun1 surefire8770584247204085126tmp surefire_014722935209347674650tmp"/>
+    <property name="sun.java.command" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/surefire/surefirebooter13316902827006499683.jar /Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/surefire 2021-12-08T22-06-38_024-jvmRun1 surefire4930971250651272265tmp surefire_014718052223120702270tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/test-classes:/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/classes:/Users/mac_sur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mac_sur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/test-classes:/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/classes:/Users/mac_sur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mac_sur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mac_sur"/>
     <property name="user.language" value="en"/>
@@ -23,12 +23,12 @@
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4"/>
+    <property name="basedir" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4/target/surefire/surefirebooter11355657825865535041.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4/target/surefire/surefirebooter13316902827006499683.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -42,7 +42,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/f4/h05m2jxj3l1_5xj95n760sc40000gp/T/"/>
     <property name="java.version" value="17.0.1"/>
-    <property name="user.dir" value="/Users/mac_sur/Desktop/Module 1/Day-4-Workshop/day4"/>
+    <property name="user.dir" value="/Users/mac_sur/Desktop/Module 1/Java-Day-4/day4_workshop/day4"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -54,5 +54,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.ibf2021d4.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.ibf2021d4.AppTest" time="0.005"/>
 </testsuite>
