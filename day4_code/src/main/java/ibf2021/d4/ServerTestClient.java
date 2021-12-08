@@ -19,7 +19,7 @@ public class ServerTestClient {
     try (OutputStream os= socket.getOutputStream()) {
         BufferedOutputStream bos= new BufferedOutputStream(os);
         DataOutputStream dos= new DataOutputStream(bos);
-        Scanner myScan =new Scanner(System.in);
+        // Scanner myScan =new Scanner(System.in);
         BufferedReader buff =new BufferedReader(new InputStreamReader(System.in));
 
         String string="";
@@ -37,5 +37,3 @@ public class ServerTestClient {
     
     }
 }
-
-
