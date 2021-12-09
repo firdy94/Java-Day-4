@@ -1,8 +1,7 @@
-package com.ibf2021d4;
+package ibf2021d4.w;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;

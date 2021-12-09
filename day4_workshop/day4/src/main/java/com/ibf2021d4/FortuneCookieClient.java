@@ -1,18 +1,15 @@
-package com.ibf2021d4;
+package ibf2021d4.w;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class FortuneCookieClient {
     public static void main( String[] args ) throws IOException{
@@ -31,10 +28,7 @@ public class FortuneCookieClient {
             InputStream in = socket.getInputStream();
             BufferedInputStream bin = new BufferedInputStream(in);
             DataInputStream dbin = new DataInputStream(bin);
-            BufferedWriter buffwrite = new BufferedWriter(new OutputStreamWriter(System.out));
             
-
-
             String string2 = "";
             String string1= "";
             while(!string1.equals("close")){
@@ -60,7 +54,7 @@ public class FortuneCookieClient {
         }
     
     }
-    public Socket clientSocket(int portNum) throws UnknownHostException, IOException{
+    public Socket clientSocket(int portNum) throws IOException{
         return new Socket ("localhost", portNum );
     }
 
