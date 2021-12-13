@@ -1,4 +1,4 @@
-package ibf2021d4.w;
+package com.ibf2021d4;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -1,12 +1,12 @@
-package ibf2021d4.w;
+package com.ibf2021d4;
 
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import ibf2021d4.w.FortuneCookie;
-import ibf2021d4.w.CookieClientHandler;
+import com.ibf2021d4.FortuneCookie;
+import com.ibf2021d4.CookieClientHandler;
 
 
 public class FortuneCookieServer {

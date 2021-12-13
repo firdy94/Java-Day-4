@@ -1,4 +1,4 @@
-package ibf2021d4.w;
+package com.ibf2021d4;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,16 +13,13 @@ import java.util.stream.Stream;
 public class FortuneCookie {
 
     private String currentPath = new File("").getAbsolutePath();
-    List<String> cookieList =new ArrayList<>();
-    Random numGen= new Random();
+    private List<String> cookieList =new ArrayList<>();
+    private Random numGen= new Random();
 
     public static void main(String[] args) {
 
         
     }
-    
-
-
     public List<String> openCookieFile(String s) throws IOException{
         currentPath=currentPath+"/"+s;
         File inputpathDBFile = Paths.get(currentPath).toFile();
@@ -47,4 +44,28 @@ public class FortuneCookie {
         
     }
     
+    public String getCurrentPath() {
+        return this.currentPath;
+    }
+
+    public void setCurrentPath(String currentPath) {
+        this.currentPath = currentPath;
+    }
+
+    public List<String> getCookieList() {
+        return this.cookieList;
+    }
+
+    public void setCookieList(List<String> cookieList) {
+        this.cookieList = cookieList;
+    }
+
+    public Random getNumGen() {
+        return this.numGen;
+    }
+
+    public void setNumGen(Random numGen) {
+        this.numGen = numGen;
+    }
 }
+
